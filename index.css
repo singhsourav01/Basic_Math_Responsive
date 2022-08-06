@@ -1,0 +1,116 @@
+html{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+
+}
+
+body{
+    background: url('/images.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 150%;
+}
+
+h1{
+    color: white;
+}
+
+.container{
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 0;
+    background-color: black;
+}
+
+button{
+    margin: 2rem 0.5rem 0rem 0.5rem;
+    padding: 0.5rem;
+    width: 5rem;
+
+}
+
+#add{
+    background-color: rgb(247, 129, 108);
+    border-radius: 0.5rem;
+    border: 0;
+    color: rgb(38, 37, 37);
+
+}
+#add:hover{
+    background-color: tomato;
+}
+
+#sub{
+    background-color: rgb(99, 168, 237);
+    border-radius: 0.5rem;
+    border: 0;
+    color: rgb(38, 37, 37);
+
+}
+#sub:hover{
+    background-color: dodgerblue;
+}
+
+#mult{
+    background-color: rgb(238, 238, 111);
+    border-radius: 0.5rem;
+    border: 0;
+    color: rgb(38, 37, 37);
+}
+#mult:hover{
+    background-color: dodgerblue;
+}
+
+#div{
+    background-color: rgb(95, 207, 144);
+    border-radius: 0.5rem;
+    border: 0;
+    color: rgb(38, 37, 37);
+
+}
+#div:hover{
+    background-color: rgb(53, 192, 113);
+}
+
+input{
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+#demo{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#blank{
+    color: white;
+    font-size: white    ;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container {
+      padding: 2rem 0.3rem;
+    }
+
+    button{
+        margin: 2rem 0.5rem 0rem 0.5rem;
+    padding: 0.5rem;
+    width: 8rem;
+
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+  input{
+    margin: 0.4rem;
+  }
+  }
